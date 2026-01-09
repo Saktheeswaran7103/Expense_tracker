@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h3>Dashboard</h3>
+
+<div class="row mt-4">
+    <div class="col-md-4">
+        <div class="card text-bg-primary">
+            <div class="card-body">
+                <h5>Total Expenses</h5>
+                <h3>₹ {{ total }}</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<a href="/expenses/ui" class="btn btn-success mt-4">View Expenses</a>
+
+{% endblock %}
