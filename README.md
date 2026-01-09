@@ -26,10 +26,16 @@ python manage.py runserver
 
 ## API Endpoints
 POST   /expenses
+
 GET    /expenses
+
 GET    /expenses/<id>
+
 PUT    /expenses/<id>
+
 DELETE /expenses/<id>
+
 GET    /reports/category-summary
+
 GET    /reports/excel
 GET    /reports/pdf
